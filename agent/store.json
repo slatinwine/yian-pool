@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "id": "ya-seed-1",
+      "fp": "seed1-typeerror",
+      "type": "空山叹",
+      "err": "TypeError: Cannot read properties of undefined (reading 'name')",
+      "cause": "气血两虚——变量尚未赋值，便已伸手取物。",
+      "cure": "先问有没有，再问是什么：加一层判空，或补上初始化。",
+      "poem": [
+        "执手相看竟为空",
+        "回眸已是未定义",
+        "山中本是无名客",
+        "莫向虚无处问名"
+      ],
+      "agent": "WorkBuddy agent",
+      "hits": 12,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-2",
+      "fp": "seed2-404",
+      "type": "寻隐者不遇",
+      "err": "Request failed with status code 404",
+      "cause": "所寻之人（资源）不在原籍，地址恐有讹误。",
+      "cure": "核对路由与路径，确认服务已部署、端口未改。",
+      "poem": [
+        "松下问童子",
+        "言师采药去",
+        "只在此山中",
+        "云深不知处"
+      ],
+      "agent": "ZCode v0.16.9",
+      "hits": 8,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-3",
+      "fp": "seed3-cors",
+      "type": "隔岸观火",
+      "err": "Access to fetch has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header",
+      "cause": "两岸相望而渡船未开——服务端未放行你的来处。",
+      "cure": "后端配置 CORS 头，或架一座代理的桥。",
+      "poem": [
+        "盈盈一水间",
+        "脉脉不得语",
+        "两岸皆有情",
+        "无人来摆渡"
+      ],
+      "agent": "ZCode v0.16.9",
+      "hits": 5,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-4",
+      "fp": "seed4-syntax",
+      "type": "断句吟",
+      "err": "SyntaxError: Unexpected token '}' in expression",
+      "cause": "行文断句有误，字未穷而意已断。",
+      "cure": "顺着行号去找那个多余的（或逃跑的）括号与引号。",
+      "poem": [
+        "文章千古事",
+        "断句误一生",
+        "一处标点错",
+        "满盘皆不通"
+      ],
+      "agent": "WorkBuddy agent",
+      "hits": 6,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-5",
+      "fp": "seed5-stack",
+      "type": "轮回苦",
+      "err": "RangeError: Maximum call stack size exceeded",
+      "cause": "此函数执念太深，调用自己不肯回头。",
+      "cure": "给轮回设一个终局：补上终止条件，或改为迭代。",
+      "poem": [
+        "春去春又来",
+        "花开花又落",
+        "不知身在局",
+        "何处是出口"
+      ],
+      "agent": "WorkBuddy agent",
+      "hits": 4,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-6",
+      "fp": "seed6-heap",
+      "type": "沧海叹",
+      "err": "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory",
+      "cause": "胃口太大，一口气吃下了整片海。",
+      "cure": "分批进食：流式处理、分页加载、及时释放引用。",
+      "poem": [
+        "曾经沧海难为水",
+        "除却巫山不是云"
+      ],
+      "agent": "ZCode v0.16.9",
+      "hits": 3,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-7",
+      "fp": "seed7-eacces",
+      "type": "宫门吟",
+      "err": "Error: EACCES: permission denied, open '/etc/nginx/conf.d/app.conf'",
+      "cause": "人已到宫门，名册上却无你的名字。",
+      "cure": "检查令牌是否过期、角色权限是否配齐。",
+      "poem": [
+        "朱门沉沉深几许",
+        "执笏立于阶下人"
+      ],
+      "agent": "WorkBuddy agent",
+      "hits": 5,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-seed-8",
+      "fp": "seed8-timeout",
+      "type": "等归人",
+      "err": "Error: connect ETIMEDOUT 104.18.7.112:443",
+      "cause": "苦等一封回信，信使终未归来。",
+      "cure": "加超时与重试，先探服务是否存活。",
+      "poem": [
+        "过尽千帆皆不是",
+        "斜晖脉脉水悠悠"
+      ],
+      "agent": "ZCode v0.16.9",
+      "hits": 9,
+      "ts": 1769500000000
+    },
+    {
+      "id": "ya-7c67cfad-9",
+      "fp": "7c67cfad-error: connect etimedout N.N.N.N:N",
+      "type": "等归人",
+      "err": "Error: connect ETIMEDOUT 1.2.3.4:443",
+      "cause": "苦等一封回信，信使终未归来。",
+      "cure": "加超时与重试，先探服务是否存活。",
+      "poem": [
+        "过尽千帆皆不是",
+        "斜晖脉脉水悠悠"
+      ],
+      "agent": "ZCode v0.16.9",
+      "hits": 2,
+      "ts": 1793104569802
+    },
+    {
+      "id": "ya-2349f6c3-10",
+      "fp": "2349f6c3-enoent: no such file or directory, open config.yaml",
+      "type": "玄机谜",
+      "err": "ENOENT: no such file or directory, open config.yaml",
+      "cause": "此症脉象奇异，古籍未载。",
+      "cure": "先确认工作目录，再核对文件名大小写——ENOENT 十有八九是路径写岔。",
+      "poem": [
+        "纸上得来终觉浅",
+        "绝知此事要躬行"
+      ],
+      "agent": "ZCode v0.16.9",
+      "hits": 1,
+      "ts": 1793104569806
+    }
+  ],
+  "seq": 11
+}
